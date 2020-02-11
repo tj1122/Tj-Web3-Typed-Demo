@@ -1,0 +1,31 @@
+/* =============
+    Heroes
+============= */
+
+#emotions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  height: 20px;
+
+  div {
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    z-index: 100;
+    padding: 50px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+    background: -moz-linear-gradient(top, #f200cd 0%, #4f28ba 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f200cd 0%,#4f28ba 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    -webkit-box-shadow: 0 0 39px -1px rgba(0,0,0,0.56);
+    box-shadow: 0 0 39px -1px rgba(0,0,0,0.56);
+    background: linear-gradient(to bottom, #f200cd 0%,#4f28ba 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+}
